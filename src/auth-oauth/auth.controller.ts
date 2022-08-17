@@ -4,7 +4,7 @@ import { Request, Response } from 'express';
 
 import { AuthService } from './auth.service';
 
-@Controller('google')
+@Controller('auth')
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
 
